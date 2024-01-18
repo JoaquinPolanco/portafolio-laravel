@@ -1,0 +1,82 @@
+/* Estilo Card */
+.cards-list {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 30px 15px; 
+    width: 200px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+    transition: 0.4s;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: auto; 
+}
+
+.card .card_image img {
+    width: 100%;
+    height: auto;
+    max-width: 100%; 
+    border-radius: 40px 40px 0 0;
+}
+
+.card .card_content {
+    padding: 10px;
+}
+
+.card .card_title {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px; 
+    margin-top: 10px;
+    height: 30px; 
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 15px 7px rgba(0, 0, 0, 0.25), -5px -5px 15px 7px rgba(0, 0, 0, 0.22);
+}
+
+.title-black {
+    color: black;
+}
+
+/* estilo de iconos redes */
+
+.social-container {
+    background-color:green; 
+    width: 200px; 
+    margin-left: 0; 
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 20px; 
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid white; 
+    border-top: 2px solid white; 
+  }
+  
+  .social-icons {
+    display: flex;
+    align-items: center; 
+  }
+
+.social-icons a {
+    margin: 0 20px; 
+    transition: transform 0.3s ease; 
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.8); 
+  }
+  
