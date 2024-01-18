@@ -29,5 +29,24 @@
     </div>
   </div>
 
+  <div class="education-container">
+    <h2>Educación</h2>
+    <div class="education-item">
+      <img src="/imgs/graduacion.png" style="width: 1.5em;">
+      <p style="font-size: 0.9em; margin: 0 10px;">Licenciado en sistemas Informáticos - 2018-2023</p>
+    </div>
+    <div class="education-item">
+      <img src="/imgs/graduacion.png" style="width: 1.5em;">
+      <p style="font-size: 0.9em; margin: 5px;">Bachillerato general- 2013-2014</p>
+    </div>
+    <div class="education-item">
+      <img src="/imgs/idiomas.png" style="width: 1.5em;">
+      <p style="font-size: 0.9em; margin: 5px;">Español-nativo</p>
+    </div>
+    <div class="education-item">
+      <img src="/imgs/idiomas.png" style="width: 1.5em;">
+      <p style="font-size: 0.9em; margin: 0 10px;">Inglés intermedio</p>
+    </div>
+  </div>
 </body>
 </html>

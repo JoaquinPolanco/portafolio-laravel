@@ -1,12 +1,4 @@
 /* Estilo Card */
-.cards-list {
-    z-index: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center; 
-    flex-wrap: wrap;
-}
-
 .card {
     margin: 30px 15px; 
     width: 200px;
@@ -28,7 +20,7 @@
 }
 
 .card .card_content {
-    padding: 10px;
+    padding: 5px;
 }
 
 .card .card_title {
@@ -49,10 +41,9 @@
     color: black;
 }
 
-/* estilo de iconos redes */
-
+/* Estilo de iconos redes */
 .social-container {
-    background-color:green; 
+    background-color: green; 
     width: 200px; 
     margin-left: 0; 
     padding: 20px;
@@ -64,19 +55,53 @@
     justify-content: center;
     border-bottom: 2px solid white; 
     border-top: 2px solid white; 
-  }
-  
-  .social-icons {
+}
+
+.social-icons {
     display: flex;
     align-items: center; 
-  }
+}
 
 .social-icons a {
     margin: 0 20px; 
     transition: transform 0.3s ease; 
-  }
-  
-  .social-icons a:hover {
+}
+
+.social-icons a:hover {
     transform: scale(1.8); 
-  }
-  
+}
+
+/* Estilo de la sección de educación */
+
+.education-container {
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+    margin-top: 20px;
+    width: 200px; /* Ancho similar al contenedor de redes */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido horizontalmente */
+}
+
+.education-item {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.education-item div {
+    margin-bottom: 10px;
+}
+
+.education-item img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.education-item p {
+    text-align: center;
+    margin: 5px 0;
+}
